@@ -1,16 +1,18 @@
-What happens when you initialize a repository? Why do you need to do it?
-
+	What happens when you initialize a repository? Why do you need to do it?
 When i initialise a repository, git starts to prepare the folder with metadata to track any changes to the files. I need to do this so that git knows which folder/files i want to start tracking changes.
 
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
-
+	How is the staging area different from the working directory and the repository?
+	What value do you think it offers?
 The staging area is where i can bundle several files for one commit to the repository. It's like a basket.
 
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+	How can you use the staging area to make sure you have one commit per logical
+	commit change?
+I shall only add the bundle of files for the commit to the staging area, and then commit. Before checking status of other uncommitted files, and then committing those. 
+
+The command "git diff" helps me check changes that's not been staged. Compares working directory with last commit (i think).
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
