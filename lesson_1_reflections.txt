@@ -1,26 +1,26 @@
-How did viewing a diff between two versions of a file help you see the big that was introduced?
-
+	How did viewing a diff between two versions of a file help you see the big that was introduced?
 It showed where the differences are. 
 Which line. but not which characters.
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term? I would be able to try different things in the code. go back and find bugs if something doesn't work.
+	How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+I would be able to try different things in the code. go back and find bugs if something doesn't work.
 
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does? 
+	What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does? 
 The pros is u make meaningful checkpoints for yourself instead of saving too much. But the cons is it's manual so you must remember to keep saving whenever you've made a sufficient/meaningful enough change. Maybe you got to plan out your milestones - where to save. Helps in planning and time management.
 
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-Because of the way we work, some files are interlinked, have same variables or links across each other. So allowing to save multi files in one commit, is more efficient.
+	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because of the way we work, some files are interlinked, have same variables or links across each other. So allowing to save multi files in one commit, is more efficient. So that later, when we go back, the bundle of files are all reverted to their respective states.
 
 
-How can you use the commands git log and git diff to view the history of files?
-git log filename 
+	How can you use the commands git log and git diff to view the history of files?
+git log filename or git log repository 
 will give me a log with timecode of the changes, starting from most recent to oldest versions.
 
-then i can use the 
+	then i can use the 
 git diff idOld idNew
 to compare the differences, see which lines deleted, which lines added.
 
-how to see colors in git diff:
+	how to see colors in git diff:
 git config --global color.ui auto
 this command configures color coding.
 
