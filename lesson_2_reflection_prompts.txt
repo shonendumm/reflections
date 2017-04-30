@@ -14,7 +14,8 @@ I shall only add the bundle of files for the commit to the staging area, and the
 	What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Situations where I'm coding new features to the project, or another language version. Branches would help me be organised, and easily recognise which branch I'm working on.
 
-How do the diagrams help you visualize the branch structure?
+	How do the diagrams help you visualize the branch structure?
+They help me see where the commits branch out.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
