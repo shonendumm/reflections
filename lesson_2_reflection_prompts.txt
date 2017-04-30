@@ -17,8 +17,9 @@ Situations where I'm coding new features to the project, or another language ver
 	How do the diagrams help you visualize the branch structure?
 They help me see where the commits branch out.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+	What is the result of merging two branches together? Why do we represent it in
+	the diagram the way we do?
+When two branches are merged, their previous commits are combined. What's deleted is deleted, what's added is kept in the new commit.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
