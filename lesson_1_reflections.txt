@@ -24,7 +24,11 @@ to compare the differences, see which lines deleted, which lines added.
 git config --global color.ui auto
 this command configures color coding.
 
+	How might using version control make you more confident to make changes that could break something?
+I could always Git checkout ID to a previous version.
 
+	Reflect: How Do You Want to Use Git?
+I can use Git for all my projects so that i can track changes and go back to previous versions easily. Offline too.
 
 
 
