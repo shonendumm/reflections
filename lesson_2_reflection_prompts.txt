@@ -21,5 +21,6 @@ They help me see where the commits branch out.
 	the diagram the way we do?
 When two branches are merged, their previous commits are combined. What's deleted is deleted, what's added is kept in the new commit.
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+	What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros - automatic is fast and painless when it comes to additions or subtractions of code.
+Cons - if code is similar or slight changes in values, it can't differentiate which code is better/faster, and it's better to do it manually (editing the code) to resolve conflicts.
